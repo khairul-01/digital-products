@@ -1,0 +1,77 @@
+/* This is margin and padding for full document */
+*{
+   margin: 0px;
+   padding: 0px;
+}
+/* here css design for navbar and header section. */
+.menu-container{
+   background-color: rgb(39, 38, 38);
+   padding: 12px;
+   color: white;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.menus{
+   display: flex;
+}
+.item{
+   margin-right: 10px;
+   padding: 7px;
+   font-size: 18px;
+   cursor: pointer;
+}
+.item:hover{
+   color:blue;
+}
+.logo-photo{
+   width: 150px;
+}
+/* banner section start here  */
+.banner-photo{
+   width: 300px;
+}
+.banner-container{
+   display: flex;
+   justify-content: space-around;
+   height: 100vh; /* here vh means vertical height. 100vh means it takes full screen height. */
+   /* border: 2px solid gray; */
+   /* margin: 2px; */
+   padding: 0 25px;
+   align-items: center;
+   background-image: url("./images/background.png"),linear-gradient(45deg, #1b1b1b, #1a1919);
+   color: white;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.title{
+   font-size: 45px;
+   font-weight: bold;
+}
+.btn{
+   padding: 10px 17px;
+   background-color: red;
+   color: white;
+   border:none;
+   border-radius: 2px;
+}
+/* About section start here  */
+.about-header{
+   text-align: center;
+   font-size: 50px;
+   margin: 15px 0px;
+}
+.about-inner{
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.about-photo{
+   width: 300px;
+   height: 314px;
+}
+.about-text{
+   width: 400px;
+}
