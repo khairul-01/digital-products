@@ -38,7 +38,7 @@
    height: 100vh; /* here vh means vertical height. 100vh means it takes full screen height. */
    /* border: 2px solid gray; */
    /* margin: 2px; */
-   padding: 0 25px;
+   padding: 0 50px;
    align-items: center;
    background-image: url("./images/background.png"),linear-gradient(45deg, #1b1b1b, #1a1919);
    color: white;
