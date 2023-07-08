@@ -62,11 +62,14 @@
    text-align: center;
    font-size: 50px;
    margin: 15px 0px;
+   padding-top: 15px;
 }
 .about-inner{
    display:flex;
    justify-content: space-around;
    align-items: center;
+   flex-direction: row-reverse;
+   padding: 30px;
 }
 .about-photo{
    width: 300px;
@@ -74,4 +77,48 @@
 }
 .about-text{
    width: 400px;
+}
+/* Service section start here  */
+.service-container{
+   background-image: url("./images/background.png"), linear-gradient(45deg, rgb(5,5,5), #2e2e2e);
+   color: white;
+   padding: 40px;
+}
+.serv-box-container{
+   display: flex;
+}
+.box{
+   width: 200px;
+   height: 300px;
+   padding: 15px;
+   text-align: center;
+   box-shadow: 4px 2px 10px gray;
+   border-radius: 5px;
+   margin: 2px;
+}
+.icon{
+   width: 70px;
+   color: #2e2e2e
+}
+.box-title{
+   padding: 10px;
+}
+.serv-btn{
+   background-color: gray;
+   margin-top: 10px;
+}
+/* service section end  */
+/* Footer section start  */
+.footer-container{
+   background-color: #2e2e2e;
+   padding: 20px;
+   color: white;
+   text-align: center;
+}
+.Fbox-container{
+   padding: 50px;
+   display: flex;
+}
+.footer-div{
+   width: 200px;
 }
