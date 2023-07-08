@@ -86,6 +86,7 @@
 }
 .serv-box-container{
    display: flex;
+   justify-content: space-around;
 }
 .box{
    width: 200px;
@@ -118,6 +119,7 @@
 .Fbox-container{
    padding: 50px;
    display: flex;
+   justify-content: space-around;
 }
 .footer-div{
    width: 200px;
